@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #575757;
+}
+h3{
+    font-weight: 700;
+    font-size: 34px;
+    color: #575757;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner p{
+    color: #828282;
+}
+.half-width{
+    width: 50%;
+    margin-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.btn{
+    padding: 24px 32px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+}
+.banner-content{
+    margin: 48px 0;
+}
+.second-banner{
+    display: flex;
+    align-items: center;
+    margin: 64px 0px;
+    background-image: url(./img/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-banner img{
+    width: 60%;
+    margin: 32px 0px 0px 0px;
+}
+.start-content{
+    text-align: center;
+}
+.second-btn{
+    margin-bottom: 30px;
+}
+.food-menu{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 10px 10px 40px #828282;
+    width: 30%;
+    margin: 32px 16px;
+}
+.menu img{
+    width: 100%;
+    border-radius: 16px;
+    size: cover;
+}
+.menu-content{
+    padding: 24px 0;
+}
+.learn-more{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+    border-radius: 8px;
+}
+
+.followers{
+    display: flex;
+    width: 50%;
+    margin: 60px auto;
+    padding: 10px 80px;
+    box-shadow: 10px 10px 15px #828282;
+    justify-content: center;
+    border-radius: 30px;
+    gap: 48px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 40px 0;
+}
+footer p{
+    color: white;
+}
+footer h2{
+    color: #828282;
+}
